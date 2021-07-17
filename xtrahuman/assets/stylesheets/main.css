@@ -239,6 +239,21 @@ h1, h3, h4, h5, p {
     margin-bottom: 22px;
   }
 
+  /*
+  ========================================
+  Leads
+  ========================================
+*/
+
+.lead {
+  text-align: center;
+}
+.lead p {
+  font-size: 21px;
+  line-height: 33px;
+}
+
+
 
 
   /*
@@ -307,7 +322,18 @@ h1, h3, h4, h5, p {
 
 .nav {
     text-align: right;
-  }
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
+
   
 
 
@@ -350,6 +376,24 @@ h1, h3, h4, h5, p {
 .primary-footer small{
     float:left;
     font-weight: 400px;
+}
+
+/*
+  ========================================
+  Speakers
+  ========================================
+*/
+
+.speaker-info {
+  border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding: 22px 0;
+  text-align: center;
+}
+
+.speaker{
+  margin-bottom: 44px;
 }
   
   
